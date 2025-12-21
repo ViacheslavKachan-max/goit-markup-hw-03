@@ -142,8 +142,10 @@ img {
     color: #434455;
 }
 
-.section{padding-top: 120px;
-padding-bottom: 120px;}
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 
 /* section-hero-text-button */
@@ -153,7 +155,7 @@ padding-bottom: 120px;}
 .section-hero {
     margin: 0 auto;
     background-color: #2e2f42;
-    
+
 }
 
 .section-hero .container {
@@ -161,7 +163,7 @@ padding-bottom: 120px;}
     justify-content: center;
     align-items: center;
     width: 1440px;
-    
+
 }
 
 .container-title {
@@ -208,7 +210,8 @@ padding-bottom: 120px;}
 
 .button-order-service:hover,
 .button-order-service:focus {
-    background-color: #404bbf;}
+    background-color: #404bbf;
+}
 
 
 /* -- section-our-features -- */
@@ -238,7 +241,7 @@ padding-bottom: 120px;}
 
 
 .head-list {
-   padding-bottom: 8px;
+    padding-bottom: 8px;
 }
 
 
@@ -330,7 +333,7 @@ padding-bottom: 120px;}
 
 
 
-.portfolio .portfolio-item{
+.portfolio .portfolio-item {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
@@ -343,7 +346,7 @@ padding-bottom: 120px;}
 
 .head-portfolio {
 
-padding-bottom: 72px;
+    padding-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
@@ -353,18 +356,19 @@ padding-bottom: 72px;
 }
 
 
-.text-portfolio{display: flex;
+.text-portfolio {
+    display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     padding: 32px 16px;
-    /* border-bottom: 1px solid #e7e9fc;
-        border-left: 1px solid #e7e9fc;
-        border-right: 1px solid #e7e9fc;
-        padding-block: 32px;
-        padding-inline: 16px; */
-        width: 360px;
-    
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding-block: 32px;
+    padding-inline: 16px;
+    width: 360px;
+
 }
 
 /* head-h3 */
@@ -396,20 +400,24 @@ padding-bottom: 72px;
 
 }
 
-.logo-footer{width: 264px;
+.logo-footer {
+    width: 264px;
     padding-top: 100px;
     padding-bottom: 100px;
-    }
+}
 
 .text-logo-footer {
     color: #f4f4fd;
     padding: 0;
 }
-.logo{padding: 0;
+
+.logo {
+    padding: 0;
     margin: 0;
 }
+
 .footer-text {
-        padding-top: 16px;
+    padding-top: 16px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
