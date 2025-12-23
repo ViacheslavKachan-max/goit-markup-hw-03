@@ -170,8 +170,8 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-padding-top: 188px;
-padding-bottom: 188px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 
@@ -185,7 +185,7 @@ padding-bottom: 188px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 
 }
 
@@ -206,7 +206,7 @@ padding-bottom: 188px;
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
-   
+
 
 }
 
@@ -247,7 +247,12 @@ padding-bottom: 188px;
 }
 
 .head-list {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 /* .list-of-features {
@@ -272,7 +277,7 @@ padding-bottom: 188px;
 
 .team-head {
     /* padding-top: 120px; */
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
@@ -293,11 +298,19 @@ padding-bottom: 188px;
 
 
 .images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
     border-radius: 0 0 4px 4px;
-    padding-bottom: 32px;
     min-width: 264px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background-color: #fff;
+    /* padding-block: 0px 32px;
+    padding-inline: 0px; */
+
+
 }
 
 
@@ -305,11 +318,11 @@ padding-bottom: 188px;
 /* name-team */
 
 .text-name {
-    padding: 32px 16px 0;
+    padding: 32px 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 246px;
+    width: 246px;
     gap: 8px;
 }
 
@@ -352,7 +365,7 @@ padding-bottom: 188px;
 
 .head-portfolio {
     /* padding-top: 120px; */
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
@@ -417,14 +430,16 @@ padding-bottom: 188px;
 
 }
 
-.logo-footer{font-weight: 700;
+.logo-footer {
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-family: "Raleway",
         sans-serif;
-    color: #4d5ae5;}
+    color: #4d5ae5;
+}
 
 
 .text-logo-footer {
@@ -435,7 +450,7 @@ padding-bottom: 188px;
 
 
 .footer-text {
-    padding-top: 16px;
+    margin-top: 16px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
