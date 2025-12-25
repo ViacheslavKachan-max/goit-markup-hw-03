@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -251,9 +257,7 @@ img {
     color: #2e2f42;
 }
 
-/* .list-of-features {
-    margin-bottom: 120px;
-} */
+
 
 
 
@@ -282,18 +286,18 @@ img {
     text-align: center;
 }
 
-.images-item {
+.card-item {
     display: flex;
     gap: 24px;
 
 }
 
-.images-team {
+.card-team {
     background-color: #f4f4fd;
 }
 
 
-.images {
+.card {
     display: flex;
     flex-direction: column;
     gap: 0;
@@ -333,7 +337,7 @@ img {
 }
 
 
-.images .text {
+.card .text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -347,7 +351,7 @@ img {
 /* section-portfolio */
 
 
-.portfolio-item {
+.portfolio-card {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
